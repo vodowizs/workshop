@@ -1,0 +1,30 @@
+html {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 50px;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+picture {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+}
+
+picture img {
+  display: block;
+  width: 100%;
+}
